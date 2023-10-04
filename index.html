@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irene's Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <body>
+      <div></div>
+      <div class="all">
+        <div class="allButtons">
+          <button class="button" onclick="moveAssistantTo(0)">Create</button>
+          <button class="button" onclick="moveAssistantTo(1)">Read</button>
+          <button class="button" onclick="moveAssistantTo(2)">Update</button>
+          <button class="button" onclick="moveAssistantTo(3)">Delete</button>
+        </div>
+        <div class="message">
+          <p class="explanation" id="explanation"></p>
+        </div>
+        <div class="assistant" id="assistant">
+          <img
+            src="../assets/horse.gif"
+            alt="Assistant Image"
+            class="assistant-image"
+          />
+        </div>
+        <script src="index.js"></script>
+      </div>
+    </body>
+  </body>
+</html>
